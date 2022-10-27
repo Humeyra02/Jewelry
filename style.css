@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(taki.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(136, 15, 63, 0.445);
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(218, 121, 171);
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: rgb(129, 15, 86);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    transition:.5s;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 20px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(182, 68, 116);
+    border-radius: 2px;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: rgba(144, 12, 85, 0.723);
+    font-size: 100px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    color: rgba(163, 31, 79, 0.829);
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 285px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(86, 26, 46, 0.943);
+    background-color: rgb(202, 124, 150);
+    border: solid 1px pink;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition:.5s;
+}
+
+.buttons button:hover{
+    background: rgb(111, 13, 64);
+}
+
+.ua{
+   background: url(11.jpg);
+   height: 100vh;
+   background-size: 100% 100%;
+}
+
+form {
+    font-size: larger;
+    background-color: rgba(189, 226, 43, 0.568);
+    text-align: center;
+    margin-top: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+input {
+    background-color: rgba(161, 150, 28, 0.424);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
