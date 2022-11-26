@@ -104,23 +104,3 @@
     background: rgb(111, 13, 64);
 }
 
-.ua{
-   background: url(11.jpg);
-   height: 100vh;
-   background-size: 100% 100%;
-}
-
-form {
-    font-size: larger;
-    background-color: rgba(189, 226, 43, 0.568);
-    text-align: center;
-    margin-top: 250px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-input {
-    background-color: rgba(161, 150, 28, 0.424);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
